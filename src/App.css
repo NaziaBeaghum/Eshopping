@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body
+{
+ font-family:  "Poppins", system-ui;;
+  
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+.poppins-extralight {
+  font-family: "Poppins", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.page_number span
+{
+  border: 1px solid grey;
+  padding: 1rem;
+}
+.page_number
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 0;
+}
+.page_number button{
+  margin: 0  .5rem;
+  padding: .5rem .8rem;
+  font-size: 1rem;
+}
+.color_change
+{
+  background-color: rgb(220, 215, 215);
+}
+.fade_out
+{
+  opacity: 0;
+}
